@@ -1,0 +1,139 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap');
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Anton', sans-serif;
+}
+ul,li{
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header {
+	height: calc(100vh - 57px);
+	background: url('../images/header-bg.jpg') no-repeat center top;
+	padding-top: 57px;
+}
+
+.header a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	margin-right: 69px;
+}
+
+.menu {
+	list-style: none;
+	display: flex;
+}
+
+.menu li {
+	margin-right: 40px;
+}
+
+.phone {
+	font-size: 17px;
+	margin-left: auto;
+}
+
+.offer {
+	margin-top: 216px;
+	color: #fff;
+}
+.offer p{
+	margin: 0;
+	font-size: 30px;
+	line-height: 45px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+.offer h1{
+	font-size: 100px;
+	line-height: 151px;
+	margin-top: -9px;
+	margin-bottom: 19px;
+}
+.btn{
+	width: 238px;
+	display: block;
+	padding: 18px 23px;
+	font-size: 17px;
+	line-height: 26px;
+	text-align: center;
+	border: 1px solid #ffffff;
+	transition: ease-out 0.5s;
+}
+.btn:hover{
+	transition: ease-out 0.5s;
+	background-color: white;
+	color:black;
+}
+.section h1,h3{	
+	text-transform: uppercase;
+	color: #000000;
+}
+.section h1{
+	margin-top: 113px;
+	font-size: 50px;
+	line-height: 75px;
+}
+.section h3{
+	margin-top: 58px;
+	font-size: 25px;
+	line-height: 38px;
+}
+.section p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+	color: #000000;
+
+}
+.article{
+	width: 100%;
+}
+.text_wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+.block1{
+	width: 50%;
+	margin-right: 18px;
+}
+.block2{
+	width:50%;
+	margin-left: 18px;
+}
+.img_wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.footer_wrapper{
+	margin-top: 114px;
+	margin-bottom: 80px;
+	display: flex;
+}
+.footer_wrapper span{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	line-height: 20px;
+	color: #000000;
+}
+.footer_wrapper span:first-child{
+	margin-right: 55px;
+}
