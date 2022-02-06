@@ -15,9 +15,9 @@ ul,li{
 }
 
 .header {
-	height: calc(100vh - 57px);
+	height: 100%;
 	background: url('../images/header-bg.jpg') no-repeat center top;
-	padding-top: 57px;
+	padding: 57px 0px;
 }
 
 .header a {
@@ -88,7 +88,7 @@ ul,li{
 	color: #000000;
 }
 .section h1{
-	margin-top: 113px;
+	margin-top: 10%;
 	font-size: 50px;
 	line-height: 75px;
 }
